@@ -1,4 +1,5 @@
 import styles from './App.module.css';
+import Competency from './component/Competency';
 import Experience from './component/Experience';
 import Header from './component/Header';
 import Home from './component/Home';
@@ -15,6 +16,7 @@ function App() {
         <Project right={false} />
         <Project right={true} />
         <Project right={false} />
+        <Competency />
       </div>
 
     </div>
