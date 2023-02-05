@@ -1,0 +1,41 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline > h1{
+    padding: 1rem 0;
+
+}
+  
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
+.timeline-year {
+    text-align: center;
+    margin-right: 20px;
+}
+  
+.start-year {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.finish-year {
+    font-style: italic;
+}
+  
+.timeline-content {
+    flex: 1;
+}
+  
+.timeline-bullet {
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+  
