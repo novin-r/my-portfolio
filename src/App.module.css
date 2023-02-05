@@ -9,11 +9,14 @@
   position: relative;
   background-color: #fff;
   width: 100%;
-  height: 100vh;
   overflow: hidden;
   text-align: left;
-  font-size: 3.13rem;
   color: #fff;
   font-family: Preahvihear;
   background: #11071F;
+}
+
+.portfolioContainer{
+  width: 70%;
+  margin: auto;
 }

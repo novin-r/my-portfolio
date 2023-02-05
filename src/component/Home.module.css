@@ -1,0 +1,38 @@
+.home{
+    height: 80vh;
+}
+
+.developerInformation{
+    display: flex;
+    align-items: end;
+    margin-top: 3rem;
+}
+.a {
+    position: relative;
+}
+.h{
+    width: 20rem;
+    height: 25rem;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+.a > img {
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.developerPNR > span{
+    display: block;
+}
+
+.developerPNR{
+    padding-bottom: 4rem;
+    font-size: 1.8rem;
+}
+
+.developerDescription{
+    margin: 5rem 0;
+}

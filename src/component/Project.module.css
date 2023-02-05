@@ -1,0 +1,40 @@
+.projectInfo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectInfo > div > h2{
+    color: #CCD6F6;
+    display: block;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.projectDescription{
+    background-color: #668c993d;
+    backdrop-filter: blur(40px);
+    border-radius: 14px;
+    padding: 1rem 2rem;
+    width: 70%;
+    margin-top: 4rem;
+}
+.projectDescriptionfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel img {
+    scroll-snap-align: start;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 16px;
+}
