@@ -14,11 +14,16 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
+    background-color: #81818133;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 50%;
 }
   
 .timeline-year {
     text-align: center;
     margin-right: 20px;
+    color: #b69adb;
 }
   
 .start-year {
@@ -36,6 +41,6 @@
   
 .timeline-bullet {
     margin-bottom: 10px;
-    list-style-type: square;
+    font-size: 1.1rem;
 }
   

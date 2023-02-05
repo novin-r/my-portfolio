@@ -11,11 +11,13 @@ function App() {
       <Header />
       <div className={styles.portfolioContainer}>
         <Home />
+        <h1>Projects</h1>
+        <Project right={true} />
+        <Project right={false} />
+        <Project right={true} />
+        <Project right={false} />
         <Experience />
-        <Project right={true} />
-        <Project right={false} />
-        <Project right={true} />
-        <Project right={false} />
+        <h1>Competencies</h1>
         <Competency />
       </div>
 
