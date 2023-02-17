@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import styles from './Project.module.css';
-import { SliderData } from './SliderData';
 import ImageSlider from './ImageSlider';
 
-function Project({title, description,right}) {    
+function Project({title, description,right,slides}) {    
   return (
     <div>
       {right ? (
@@ -15,13 +14,13 @@ function Project({title, description,right}) {
             </div>
           </div>
           <div>
-            <ImageSlider slides={SliderData} />
+            <ImageSlider slides={slides} title={title} />
           </div>
         </div>
       ) : (
         <div className={styles.projectInfo}>
           <div>
-            <ImageSlider slides={SliderData} />
+            <ImageSlider slides={slides} title={title} />
           </div>
           <div className={styles.projectDescriptionfield}>
             <h2>{title}</h2>

@@ -1,12 +1,18 @@
-   .header {
+.header {
     background-color: #1a0b2e;
     box-shadow: 0 6px 22px -3px rgba(0, 0, 0, 0.1);
     width: 100%;
     text-align: center;
     height: 7rem;
-  }
+}
 
-  .logoIcon {
+.logoIcon {
     padding-top: 1.5rem;
     font-size: 3.13rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .logoIcon {
+    font-size: 2.5rem;
   }
+}

@@ -6,7 +6,6 @@
 
 .timeline > h1{
     padding: 1rem 0;
-
 }
   
 .timeline-item {
@@ -44,3 +43,21 @@
     font-size: 1.1rem;
 }
   
+@media only screen and (max-width: 480px) {
+    .timeline-item {
+        display: block;
+        width: 100%;
+        padding: 1rem 2rem;
+
+    }
+    .timeline-year {
+        margin-right: 0;
+    }
+    .timeline-content {
+        margin-top: 1rem;
+    }
+
+    .timeline-bullet {
+        font-size: 0.8rem;
+    }
+}
