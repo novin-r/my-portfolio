@@ -39,7 +39,6 @@ function App() {
         <h1>Competencies</h1>
         <Competency />
       </div>
-
     </div>
   );
 }
